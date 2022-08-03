@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assets/images/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <main>
+        <img src="" alt="pokemon" class="pokemon__image">
+
+        <div class="pokedex__light"> </div>
+
+        <div class="pokemon__data">
+            <span class="pokemon__number"></span>-
+            <span class="pokemon__name"></span>
+            <div class="pokemon__cries"></div>
+        </div>
+
+        <button class="btn__sound"><i class="fa-solid fa-music"></i></button>
+
+        <form class="form__wrapper">
+            <input type="search" class="input__search" placeholder="Name or Number" required>
+        </form>
+
+        <div class="buttons__wrapper">
+            <button class="button btn__prev">Prev &lt;</button>
+            <button class="button btn__next">Next &gt;</button>
+        </div>
+        <img src="./assets/images/pokedex.png" alt="pokedex" class="pokedex">
+    </main>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

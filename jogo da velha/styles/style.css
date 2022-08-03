@@ -1,0 +1,79 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+    background-color: whitesmoke; 
+    
+}
+
+.content{
+    max-width: 800px;
+    margin: auto;
+}
+
+.stage{
+    text-align: center;
+}
+
+.info{
+    float: left;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 2px solid gray;
+    display: inline-block;
+    
+}
+
+.o{
+    position: relative;
+
+}
+
+.o:after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    content: "\2B55";
+    font-size: 50px;
+    line-height: 100px;
+}
+
+.x{
+    position: relative;
+
+}
+
+.x:after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    content: "\274C";
+    font-size: 50px;
+    line-height: 100px;
+}
+
+h3{
+    word-spacing: 10px;
+}
+
+
+
+button{
+    width: 158px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    word-spacing: 5px;
+    padding: 10px;
+    margin-top: 10px;
+
+}

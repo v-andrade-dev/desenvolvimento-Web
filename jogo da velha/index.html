@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jogo da Velha</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='./styles/style.css'>
+</head>
+<body>
+    <div class="content">
+    <div class="info">
+        <h1>Jogo da Velha</h1>
+        <h2>Jogue o jogo da velha com seus amigos, ou contra o computador.</h2> 
+        
+        <h3>Instruções:</h3>
+        <ul>
+            <li>O primeiro jogador é o <img src="./Assets/2b55.png" width="15px"></li>
+            <li>O segundo jogador é o <img src="./Assets/x.png"  width="15px"></li>
+        </ul>
+        
+    </div>
+
+ 
+    <div class="stage">
+
+        <div>
+            <div id="0" class="square"></div>
+                
+            <div id="1" class="square"></div>
+
+            <div id="2" class="square"></div>
+
+         </div>
+
+         <div>
+            <div id="3" class="square"></div>
+            <div id="4" class="square"></div>
+            <div id="5" class="square"></div>
+         </div>
+         
+         <div>
+            <div id="6" class="square"></div>
+            <div id="7" class="square"></div>
+            <div id="8" class="square"></div>
+         </div>
+         
+         
+         <div class="btn">
+            <button id="restart">Restart Game</button>
+            <button id="resetScore">Resetar Placar</button><br><br>
+            <input type="checkbox" name="rng" id="rng" value="ai" onclick="if(this.checked){rngActive()}else{rngDisable()}"><label for="ai">Jogar contra o computador</label>
+
+        </div>
+
+            <h2>Placar</h2>
+            <img src="./Assets/2b55.png" width="15px"> <img src="./Assets/x.png"  width="15px">
+
+            <p id="score">0 : 0</p>         
+    </div>
+
+    </div>
+    <script src="./scripts/game.js"></script>
+    <script src="./scripts/interface.js"></script>
+    
+</body>
+</html>
