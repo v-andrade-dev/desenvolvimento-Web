@@ -1,10 +1,3 @@
-# Jogo da Memória com React
-
-Jogo da memória em javascript, transportado para o React, aproveitando a inteligência do código original e simplificando com components.
-
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
